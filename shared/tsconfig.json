@@ -4,10 +4,11 @@
       "baseUrl": ".",
       "paths": {
         "@shared/*": ["../shared/*"]
-      }
+      },
+      "composite": true
     },
     "include": ["../shared/**/*"],
     // do not allow api imports
-    "exclude": ["../api/**/*"]
+    "exclude": ["../api/**/*"],
   }
   

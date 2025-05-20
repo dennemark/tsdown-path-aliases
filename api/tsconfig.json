@@ -9,5 +9,8 @@
       }
     },
     "include": ["./**/*", "../shared/**/*"],
+    "references": [
+      { "path": "../shared" }
+    ]
   }
   
